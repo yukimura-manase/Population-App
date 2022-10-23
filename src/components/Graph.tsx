@@ -17,7 +17,7 @@ export const Graph = () => {
 
 	// dataの部分は、CheckBoxと連動して動的に作成する => Storeで管理する！
 	const graphData: (string | number)[][] = [
-		["年"],
+		["年"], ['1960年'],
 		['1965年'], ['1970年'],
 		['1975年'], ['1980年'],
 		['1985年'], ['1990年'], 
@@ -32,7 +32,7 @@ export const Graph = () => {
 
 			let loopTimes = 0;
 
-			const displayRecodeNum = 12;
+			const displayRecodeNum = 13;
 
 			let recodeCount = 1;
 
